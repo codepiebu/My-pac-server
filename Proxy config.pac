@@ -11,5 +11,5 @@ function FindProxyForURL(url, host) {
     }
 
     // Use proxy for all other traffic
-    return "10.240.10.91:8080";
+    return "http://10.240.10.91:8080";
 }
